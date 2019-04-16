@@ -1,0 +1,49 @@
+---
+name: cmpsc-302-spring-2019-portfolio01
+break: true
+indent: 4
+---
+# --> check the technical writing
+# mdl is a Markdown linting tool
+# proselint checks writing for common mistakes
+writing/proposal.md:
+    mdl
+    proselint
+    --exists
+    --paragraphs 2
+writing/update_one.md:
+    mdl
+    proselint
+    --exists
+    --paragraphs 2
+writing/update_two.md:
+    mdl
+    proselint
+    --exists
+    --paragraphs 2
+writing/update_three.md:
+    mdl
+    proselint
+    --exists
+    --paragraphs 2
+writing/report.md:
+    mdl
+    proselint
+    --exists
+responses/feedback.md:
+    mdl
+    proselint
+    --exists
+    --paragraphs 5
+screenshots/screenshot_one.png:
+    --exists
+screenshots/screenshot_two.png:
+    --exists
+screenshots/screenshot_three.png:
+    --exists
+screenshots/screenshot_four.png:
+    --exists
+screenshots/screenshot_five.png:
+    --exists
+# --> check the number of commits beyond a threshold
+--commits 17
